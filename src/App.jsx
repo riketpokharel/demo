@@ -6,6 +6,7 @@ import { Home, About, Facilities, Rooms, Gallery, Contacts, Login, Signup } from
 
 function App(){
   return <div className="App">
+    
     <Navbar />
     <Routes>
       <Route path="/" element={<Home />}/>
